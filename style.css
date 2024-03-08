@@ -1,19 +1,25 @@
 @font-face {
-    font-family: 'font';
-    src: url('font.woff2') format('woff2');
-  }
+  font-family: "font";
+  src: url("font.woff2") format("woff2");
+}
+
+@media (max-resolution: 1dppx) {
+    #fixmobiletext {
+        margin-bottom: 40px;
+    }
+}
 
 body {
-    background: #0E1525;
+  background: #0e1525;
 }
 
 * {
-    font-family: 'font', sans-serif;
-    color: white;
+  font-family: "font", sans-serif;
+  color: white;
 }
 
 #for {
-    width: 42px;
-    height: 42px;
-    border-radius: 10px;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
 }
