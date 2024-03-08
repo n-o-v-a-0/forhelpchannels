@@ -3,7 +3,7 @@
   src: url("font.woff2") format("woff2");
 }
 
-@media (max-resolution: 1dppx) {
+@media (hover: none) {
     #fixmobiletext {
         margin-bottom: 40px;
     }
