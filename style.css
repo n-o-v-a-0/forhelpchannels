@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'font';
+    src: url('font.woff2') format('woff2');
+  }
+
+body {
+    background: #0E1525;
+}
+
+* {
+    font-family: 'font', sans-serif;
+    color: white;
+}
